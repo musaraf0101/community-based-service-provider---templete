@@ -14,3 +14,17 @@
  input{
     text-align: center;
  }
+ .card{
+    max-width: 30em;
+    flex-direction: column;
+    border: 1px solid #f9f5f5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    margin: 15px;
+}
+.card img{
+    max-width: 50%;
+    max-height: 50%;
+    margin: auto;
+    padding: 0.5em;
+    border-radius: 0.7em;
+}
