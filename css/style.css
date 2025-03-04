@@ -7,3 +7,10 @@
     outline: none;
     box-shadow: none;
 } */
+ .user-form{
+    display: flex;
+    justify-content: center;
+ }
+ input{
+    text-align: center;
+ }
