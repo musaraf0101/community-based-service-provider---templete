@@ -32,11 +32,7 @@
             <a href="/admin/serviceprovider.html">Service Providers</a>
             <a href="#">Services</a>
             <a href="/admin/compliant.html">Compliant's</a>
-            <a
-              href="#"
-              class="logout me-3"
-              ><i class="fas fa-sign-out-alt"></i>Logout</a
-            >
+            
           </div>
           <!-- navbar -->
         </div>
@@ -47,6 +43,19 @@
        <section class="content">
          
          <div class="top-bar">
+            <div class="notify">
+                <!-- notification -->
+            <button type="button" class="btn btn-primary position-relative">
+                <i class="bi bi-bell-fill"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  10+
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </button>
+            <!-- logout -->
+            <a href="#" class="logout me-3"><i class="fas fa-sign-out-alt"></i>Logout</a>
+            </div>
+              <!-- form -->
             <form class="d-flex justify-content-center search-bar" role="search">
                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                <button class="btn btn-outline-primary" type="submit">Search</button>
