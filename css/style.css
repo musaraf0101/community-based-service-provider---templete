@@ -12,6 +12,29 @@
 html,body{
   height: 100%;
 }
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:12rem;
+  height: 100%;
+  background-color: #ccc;
+  color: #000;
+  padding-top: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.sidebar a {
+  color: #000;
+  padding: 15px;
+  text-decoration: none;
+}
+.nav{
+  flex-direction: column;
+  padding-top: 100px;
+  align-items: center;
+}
+/* common css code end */
 /* .form-control:focus{
     outline: none;
     box-shadow: none;
@@ -37,28 +60,7 @@ input {
   padding: 0.5em;
   border-radius: 0.7em;
 }
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width:12rem;
-  height: 100%;
-  background-color: #ccc;
-  color: #000;
-  padding-top: 20px;
-  padding-left: 20px;
-  box-sizing: border-box;
-}
-.sidebar a {
-  color: #000;
-  padding: 15px;
-  text-decoration: none;
-}
-.nav{
-  flex-direction: column;
-  padding-top: 100px;
-  align-items: center;
-}
+/* admin dashboard code start */
 .logout{
   border:1px solid #000;
   border-radius: 5px;
@@ -89,7 +91,6 @@ input {
 }
 .content{
   margin-left: 12rem;
-  /* padding:20px; */
   height: 100%;
   overflow-y: auto;
 }
@@ -116,3 +117,4 @@ input {
   outline: none;
   border: none;
 }
+/* admin dashboard code start */
