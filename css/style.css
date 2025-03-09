@@ -118,3 +118,26 @@ input {
   border: none;
 }
 /* admin dashboard code start */
+/* login form css */
+.signup-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-btn{
+  padding: 10px 50px;
+}
+.login-btn:hover{
+  border:1px solid #000;
+  color:#000;
+  background-color: #fff;
+}
+
+.signup{
+  text-align: end;
+  font-size: 18px;
+}
+.signup-text a{
+  text-decoration: none
+}
+/* login form css */
