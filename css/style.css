@@ -141,3 +141,36 @@ input {
   text-decoration: none
 }
 /* login form css */
+/* view page css */
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.star {
+  font-size: 50px;
+  color: gray;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.star:hover {
+  color: gold;
+}
+
+.star.selected {
+  color: gold;
+}
+
+#rating-result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#rating-value {
+  font-weight: bold;
+}
+/* view page css */
